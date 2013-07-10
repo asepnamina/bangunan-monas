@@ -1,0 +1,150 @@
+# depslib dependency file v1.0
+1366967597 source:d:\fd\tugas grafkom\grafkom\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1370955035 source:c:\users\ujang ucok\desktop\tugas5_kelompok6_if8\grafkom\main.cpp
+	<stdio.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<GL/glu.h>
+
+1338839572 source:c:\users\ujang ucok\desktop\tugas5_kelompok6_if8\grafkom\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1338839572 c:\users\ujang ucok\desktop\tugas5_kelompok6_if8\grafkom\imageloader.h
+
+1338839572 source:c:\users\ujang ucok\desktop\tugas5_kelompok6_if8\grafkom\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1338839572 c:\users\ujang ucok\desktop\tugas5_kelompok6_if8\grafkom\vec3f.h
+	<iostream>
+
+1338839572 source:j:\tugas5_kelompok6_if8\grafkom\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1338839572 j:\tugas5_kelompok6_if8\grafkom\imageloader.h
+
+1338839572 source:j:\tugas5_kelompok6_if8\grafkom\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1338839572 j:\tugas5_kelompok6_if8\grafkom\vec3f.h
+	<iostream>
+
+1371742758 source:j:\tugas5_kelompok6_if8\grafkom\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	"imageloader.h"
+	"vec3f.h"
+
+1338839572 source:c:\users\ujang ucok\desktop\tugas grafmon u asep\grafkom\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1338839572 c:\users\ujang ucok\desktop\tugas grafmon u asep\grafkom\imageloader.h
+
+1338839572 source:c:\users\ujang ucok\desktop\tugas grafmon u asep\grafkom\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1338839572 c:\users\ujang ucok\desktop\tugas grafmon u asep\grafkom\vec3f.h
+	<iostream>
+
+1371747597 source:c:\users\ujang ucok\desktop\tugas grafmon u asep\grafkom\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	"imageloader.h"
+	"vec3f.h"
+
+1338839572 source:g:\tugas grafmon u asep\grafkom\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1338839572 g:\tugas grafmon u asep\grafkom\imageloader.h
+
+1373439154 source:g:\tugas grafmon u asep\grafkom\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	"imageloader.h"
+	"vec3f.h"
+
+1338839572 g:\tugas grafmon u asep\grafkom\vec3f.h
+	<iostream>
+
+1338839572 source:g:\tugas grafmon u asep\grafkom\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1338889972 source:f:\tugas grafmon u asep\grafkom\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1338889972 f:\tugas grafmon u asep\grafkom\imageloader.h
+
+1372609572 source:f:\tugas grafmon u asep\grafkom\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<OpenGL/OpenGL.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	"imageloader.h"
+	"vec3f.h"
+
+1338889972 f:\tugas grafmon u asep\grafkom\vec3f.h
+	<iostream>
+
+1338889972 source:f:\tugas grafmon u asep\grafkom\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1338839572 source:c:\users\saetunggal\documents\grafkom\imageloader.cpp
+	<assert.h>
+	<fstream>
+	"imageloader.h"
+
+1338839572 c:\users\saetunggal\documents\grafkom\imageloader.h
+
+1338839572 source:c:\users\saetunggal\documents\grafkom\vec3f.cpp
+	<math.h>
+	"vec3f.h"
+
+1338839572 c:\users\saetunggal\documents\grafkom\vec3f.h
+	<iostream>
+
