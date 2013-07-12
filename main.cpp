@@ -300,7 +300,7 @@ glPopMatrix();
 
 void pagar()
 {
-    //tihang1
+    //tiang1
     glPushMatrix();
     glTranslated(0,0,0);
     glColor3f(0,0,0);
@@ -368,7 +368,7 @@ GLUquadricObj *quad = gluNewQuadric();
      gluCylinder(quad,0.7,0.3,2,4,50);
      glPopMatrix();
 
-//tutup kotak
+//tutup kotak silinder bawah
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(0.0,-0.5,0.0);
@@ -407,20 +407,6 @@ GLUquadricObj *quad = gluNewQuadric();
     glutSolidCube(1);
     glPopMatrix();
 
-//tangga 4
-    glPushMatrix();
-    glTranslated(0,-11,0);
-    glScaled(37,1.5,37);
-    glutSolidCube(1);
-    glPopMatrix();
-
-//tangga 5
-    glPushMatrix();
-    glTranslated(0,-12,0);
-    glScaled(41,1.5,41);
-    glutSolidCube(1);
-    glPopMatrix();
-
  }
 
  void gedung()
@@ -429,7 +415,7 @@ GLUquadricObj *quad = gluNewQuadric();
 
     GLUquadricObj *quad = gluNewQuadric();
 
-//tihang1
+//tiang1
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(-20,5,50);
@@ -438,7 +424,7 @@ GLUquadricObj *quad = gluNewQuadric();
     gluCylinder(quad,0.3,0.3,2,50,50);
     glPopMatrix();
 
-//tihang2
+//tiang2
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(-10,5,50);
@@ -447,7 +433,7 @@ GLUquadricObj *quad = gluNewQuadric();
     gluCylinder(quad,0.3,0.3,2,50,50);
     glPopMatrix();
 
-//tihang3
+//tiang3
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(0,5,50);
@@ -456,7 +442,7 @@ GLUquadricObj *quad = gluNewQuadric();
     gluCylinder(quad,0.3,0.3,2,50,50);
     glPopMatrix();
 
-//tihang4
+//tiang4
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(10,5,50);
@@ -465,7 +451,7 @@ GLUquadricObj *quad = gluNewQuadric();
     gluCylinder(quad,0.3,0.3,2,50,50);
     glPopMatrix();
 
-//tihang5
+//tiang5
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(20,5,50);
@@ -474,7 +460,7 @@ GLUquadricObj *quad = gluNewQuadric();
     gluCylinder(quad,0.3,0.3,2,50,50);
     glPopMatrix();
 
-//tihang pintu
+//tiang pintu kiri
     glPushMatrix();
     glColor3f(0.8,0.498039,0.196078);
     glTranslated(5,5,18);
@@ -483,6 +469,7 @@ GLUquadricObj *quad = gluNewQuadric();
     gluCylinder(quad,0.1,0.1,2,50,50);
     glPopMatrix();
 
+//tiang pintu k
     glPushMatrix();
     glColor3f(0.8,0.498039,0.196078);
     glTranslated(-5,5,18);
@@ -499,7 +486,7 @@ GLUquadricObj *quad = gluNewQuadric();
     glutSolidCube(1);
     glPopMatrix();
 
-//kotak awal
+//gedung utama
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(0,20,0);
@@ -507,7 +494,7 @@ GLUquadricObj *quad = gluNewQuadric();
     glutSolidCube(1);
     glPopMatrix();
 
-//kotak kiri
+//gedung kiri
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(-37.5,20,35);
@@ -515,7 +502,7 @@ GLUquadricObj *quad = gluNewQuadric();
     glutSolidCube(1);
     glPopMatrix();
 
-//kotak kanan
+//gedung kanan
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(37.5,20,35);
@@ -551,35 +538,35 @@ GLUquadricObj *quad = gluNewQuadric();
     glutSolidCube(1);
     glPopMatrix();
 
-//tutup gedung
+//atap gedung utama bawah
     glPushMatrix();
     glTranslated(0,30,6);
     glScaled(130,1.5,30);
     glutSolidCube(1);
     glPopMatrix();
 
-//tutup gedung depan bawah
+//atap gedung depan bawah
     glPushMatrix();
     glTranslated(0,30,25);
     glScaled(95,1.5,60);
     glutSolidCube(1);
     glPopMatrix();
 
-//tutup gedung atas
+//atap gedung utama atas
     glPushMatrix();
     glTranslated(0,35,6);
     glScaled(130,1.5,30);
     glutSolidCube(1);
     glPopMatrix();
 
-//tutup gedung depan atas
+//atap gedung depan atas
     glPushMatrix();
     glTranslated(0,35,25);
     glScaled(95,1.5,60);
     glutSolidCube(1);
     glPopMatrix();
 
-//tutup antar atap
+//atap antar atap
     glPushMatrix();
     glTranslated(0,32,47.5);
     glScaled(60,5,10);
@@ -605,7 +592,7 @@ GLUquadricObj *quad = gluNewQuadric();
     glPopMatrix();
     glEnable(GL_CULL_FACE);
 
-//tihang bendera
+//tiang bendera
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(0,2,65);
@@ -614,10 +601,10 @@ GLUquadricObj *quad = gluNewQuadric();
     gluCylinder(quad,0.2,0.2,2,50,50);
     glPopMatrix();
 
-//dasar tihang
+//dasar tiang
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
-    glTranslated(0,0,65);
+    glTranslated(0,2,65);
     glRotated(90,-1.0,0.0,0.0);
     glScaled(10,10,1);
     gluCylinder(quad,0.2,0.2,2,50,50);
@@ -649,7 +636,7 @@ GLUquadricObj *quad = gluNewQuadric();
     glutSolidCube(1);
     glPopMatrix();
 
-//tutup tihang
+//tutup tiang
     glDisable(GL_CULL_FACE);
     glPushMatrix();
     glColor3f(0.8f, 0.4f, 0.1f);
@@ -702,22 +689,21 @@ GLUquadricObj *quad = gluNewQuadric();
     glutSolidCone(1.0,1,20,30);
     glPopMatrix();
 }
-
 void tiangistiqlal()
 {
-//kotak awal
+//tiangistiqlal
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(0,10,0);
     glScaled(3,25,5);
-    glutSolidCube(1);
+  glutSolidCube(1);
     glPopMatrix();
 
 }
 
 void tiangistiqlal2()
 {
-//kotak awal
+//tiangistiqlal2
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(-3,10,-20);
@@ -729,7 +715,7 @@ void tiangistiqlal2()
 void istiqlal()
 {
     GLUquadricObj *quad = gluNewQuadric();
-//kotak besar
+//gedung dalam istiqlal
     glPushMatrix();
     glColor3f(0.0,0.0,0.0);
     glTranslated(0,0,-15);
@@ -737,15 +723,15 @@ void istiqlal()
     glutSolidCube(1);
     glPopMatrix();
 
-//kotak bawah
+//atap bawah
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(0,12,-15);
     glScaled(50,1,40);
-    glutSolidCube(1);
+   glutSolidCube(1);
     glPopMatrix();
 
-//kotak tengah
+//atap tengah
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(0,15,-16);
@@ -753,7 +739,7 @@ void istiqlal()
     glutSolidCube(1);
     glPopMatrix();
 
-//kotak atas
+//atap atas
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(0,18,-16);
@@ -769,7 +755,7 @@ void istiqlal()
     glutSolidSphere(1,60,360);
     glPopMatrix();
 
-//kotak depann
+//atap pagar depan gedung
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(-10,-5,8);
@@ -777,7 +763,7 @@ void istiqlal()
     glutSolidCube(1);
     glPopMatrix();
 
-//kotak depann kanan
+//atap pagar penghubung pagar depan gedung dan taman
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(19,-5,15);
@@ -785,29 +771,29 @@ void istiqlal()
     glutSolidCube(1);
     glPopMatrix();
 
-//kotak depann
+//atap pagar tengah penghubung taman dan pagar samping gedung
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(28,-5,-10);
     glScaled(7,1,45);
     glutSolidCube(1);
     glPopMatrix();
-
+//atap pagar ujung
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(45,-5,-10);
     glScaled(7,1,45);
     glutSolidCube(1);
     glPopMatrix();
-
+// belum jelas
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(28,-10,-10);
     glScaled(4,1,5);
-    glutSolidCube(1);
+   // glutSolidCube(1);
     glPopMatrix();
 
-//kotak depann kanan
+//atap pagar belakang
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(28,-5,-30);
@@ -815,7 +801,7 @@ void istiqlal()
     glutSolidCube(1);
     glPopMatrix();
 
-//menara kecil
+//menara depan besar
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(48,-5,15);
@@ -823,7 +809,7 @@ void istiqlal()
     gluCylinder(quad,2,2,50,50,50);
     glPopMatrix();
 
-//kubah menara
+//lingkaran  bawah  menara besar
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(48,39,15);
@@ -831,7 +817,7 @@ void istiqlal()
     gluCylinder(quad,2.5,2.5,4,50,50);
     glPopMatrix();
 
-//kubah menara2
+//lingkaran atas menara besar
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(48,45,15);
@@ -839,7 +825,25 @@ void istiqlal()
     gluCylinder(quad,2.5,2.5,2,50,50);
     glPopMatrix();
 
-//kubah menara5
+
+//tutup kubah menara besar atas
+    glPushMatrix();
+    glColor3f(1.0,1.0,1.0);
+    glTranslated(48,47,15);
+    glRotated(90,-1,0,0);
+    gluDisk(quad,0,2.5,50,1);
+    glPopMatrix();
+
+//ujung menara besar
+    glPushMatrix();
+    glColor3f(1.0,1.0,1.0);
+    glTranslated(48,50,15);
+    glScaled(0.7,15,0.7);
+    glutSolidSphere(1,60,50);
+    glPopMatrix();
+
+
+//bulat bawah menara kecil
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(28,17,-25);
@@ -847,7 +851,7 @@ void istiqlal()
     gluCylinder(quad,1.5,1.5,4,50,50);
     glPopMatrix();
 
-//kubah menara6
+//bulat tengah menara kecil
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(28,19,-25);
@@ -855,7 +859,7 @@ void istiqlal()
     gluCylinder(quad,2,2,1,50,50);
     glPopMatrix();
 
-//tutup kubah menara5
+//tutup atas menara kecil
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(28,21,-25);
@@ -863,7 +867,7 @@ void istiqlal()
     gluDisk(quad,0,1.5,50,1);
     glPopMatrix();
 
-//kubah3
+//ujung menara kecil
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(28,21,-25);
@@ -871,7 +875,7 @@ void istiqlal()
     glutSolidSphere(1,60,360);
     glPopMatrix();
 
-//tutup kubah menara6
+//tutup kubah menara kecil
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(28,20,-25);
@@ -879,7 +883,7 @@ void istiqlal()
     gluDisk(quad,0,2,50,1);
     glPopMatrix();
 
-//tutup kubah menara
+//tutup kubah menara besar tengah
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(48,43,15);
@@ -887,7 +891,7 @@ void istiqlal()
     gluDisk(quad,0,2.5,50,1);
     glPopMatrix();
 
-//tutup kubah menara2
+//tutup kubah menara besar bawah
     glDisable(GL_CULL_FACE);
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
@@ -897,7 +901,7 @@ void istiqlal()
     glPopMatrix();
     glEnable(GL_CULL_FACE);
 
-//tutup kubah menara3
+//tutup kubah menara besar atas 3
     glDisable(GL_CULL_FACE);
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
@@ -907,7 +911,7 @@ void istiqlal()
     glPopMatrix();
     glEnable(GL_CULL_FACE);
 
-//tutup kubah menara4
+//tutup kubah menara besar atas 2
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(48,47,15);
@@ -915,7 +919,7 @@ void istiqlal()
     gluDisk(quad,0,2.5,50,1);
     glPopMatrix();
 
-//kubah2
+//tutup kubah menara besar atas 2
     glPushMatrix();
     glColor3f(1.0,1.0,1.0);
     glTranslated(48,50,15);
@@ -923,26 +927,12 @@ void istiqlal()
     glutSolidSphere(1,60,360);
     glPopMatrix();
 
-//menara gede
-    glPushMatrix();
-    glColor3f(1.0,1.0,1.0);
-    glTranslated(48,-5,15);
-    glRotated(90,-1,0,0);
-    gluDisk(quad,0,2,50,1);
-    glPopMatrix();
-
-    glPushMatrix();
-    glColor3f(1.0,1.0,1.0);
-    glTranslated(48,45,15);
-    glRotated(90,-1,0,0);
-    gluDisk(quad,0,2,50,1);
-    glPopMatrix();
-
 }
+
 
 void istiqlalfix()
 {
-    //kotak depan
+    //dinding depan
 for (int i=-60;i<40 ;i+=5){
 
      if (i<-45)
@@ -974,7 +964,8 @@ for (int i=-60;i<40 ;i+=5){
     }
 
 }
-//kotak kecil kanan
+//dinding kotak kecil kanan
+
 for (int i=40;i>18 ;i-=4){
 
     glPushMatrix();
@@ -985,7 +976,7 @@ for (int i=40;i>18 ;i-=4){
 
 }
 
-//kotak kecil kiri
+//dinding kotak kecil kiri
 for (int i=40;i>18 ;i-=4){
 
     glPushMatrix();
@@ -995,7 +986,7 @@ for (int i=40;i>18 ;i-=4){
     glPopMatrix();
 }
 
-//kotak belakang
+//dinding belakang
 
 for (int i=-45;i<64 ;i+=5){
     glPushMatrix();
@@ -1005,7 +996,7 @@ for (int i=-45;i<64 ;i+=5){
     glPopMatrix();
 
 }
-//kotak kiri
+//dinding kiri
 
 for (int i=-100;i<-15;i+=5){
     glPushMatrix();
@@ -1015,7 +1006,7 @@ for (int i=-100;i<-15;i+=5){
     glPopMatrix();
 }
 
-//kotak kanan
+//dinding kanan
 for (int i=-100;i<5;i+=5){
     glPushMatrix();
     glTranslatef(50,20,i);
@@ -1023,7 +1014,7 @@ for (int i=-100;i<5;i+=5){
     tiangistiqlal2();
     glPopMatrix();
 }
-//kotak pagar
+//tiang pagar depan
 for (int i=-37;i<136 ;i+=3){
     glPushMatrix();
     glTranslatef(i,15,10);
@@ -1032,7 +1023,7 @@ for (int i=-37;i<136 ;i+=3){
     glPopMatrix();
 }
 
-//kotak belakang tiang
+//kotak menara
 
 for (int i=65;i<80 ;i+=5){
 
@@ -1058,16 +1049,15 @@ for (int i=65;i<80 ;i+=5){
     tiangistiqlal();
     glPopMatrix();
 
-//kotak kecil kanan
+//kotak kecil menara
 for (int i=45;i>20 ;i-=4){
-
     glPushMatrix();
     glTranslatef(70,i,-110);
     glScalef(4,0.1,5);
     tiangistiqlal();
     glPopMatrix();
 }
-//kotak pagar belakang
+//tiang pagar belakang
 for (int i=60;i<120 ;i+=3){
 
     glPushMatrix();
@@ -1187,7 +1177,7 @@ for (int i=-44; i>=-230; i+=-20)
     glPopMatrix();
     }
 
-//tihangluar kanan1
+//tiangluar kanan bawah
     glPushMatrix();
     glTranslated(243,18,15);
     glColor3f(0,0,0);
@@ -1196,7 +1186,7 @@ for (int i=-44; i>=-230; i+=-20)
     glPopMatrix();
 
 
-//tihangluar kanan2
+//tiangluar kanan atas
     glPushMatrix();
     glTranslated(243,18,-15);
     glColor3f(0.8f, 0.4f, 0.1f);
@@ -1204,7 +1194,7 @@ for (int i=-44; i>=-230; i+=-20)
     glutSolidCube(0.5f);
     glPopMatrix();
 
-//tihangluar kiri1
+//tiangluar kiri bawah
     glPushMatrix();
     glTranslated(-243,18,15);
     glColor3f(0.8f, 0.4f, 0.1f);
@@ -1212,7 +1202,7 @@ for (int i=-44; i>=-230; i+=-20)
     glutSolidCube(0.5f);
     glPopMatrix();
 
-//tihangluar kiri2
+//tiangluar kiri atas
     glPushMatrix();
     glTranslated(-243,18,-15);
     glColor3f(0.8f, 0.4f, 0.1f);
@@ -1235,11 +1225,26 @@ for (int i=-44; i>=-230; i+=-20)
     pohon();
     glPopMatrix();
 
-     glPushMatrix();
-    glTranslatef(45,20,-25);
+    //kanan atas panjang
+   for (int i=44; i<=230; i+=20)
+    {
+       glPushMatrix();
+    glTranslatef(i,20,-25);
     glScalef(1.5,2,1.5);
     pohon();
     glPopMatrix();
+    }
+
+//kanan bawah panjang
+for (int i=44; i<=230; i+=20)
+
+{
+    glPushMatrix();
+    glTranslatef(i,20,25);
+    glScalef(1.5,2,1.5);
+    pohon();
+    glPopMatrix();
+}
 
 //
     glPushMatrix();
@@ -1248,11 +1253,35 @@ for (int i=-44; i>=-230; i+=-20)
     pohon();
     glPopMatrix();
 
+    //pohon kiri bawah panjang
+    for (int i=-44; i>=-230; i+=-20)
+    {
+    glPushMatrix();
+    glTranslatef(i,20,25);
+    glScalef(1.5,2,1.5);
+    pohon();
+    glPopMatrix();
+    }
+
+
     glPushMatrix();
     glTranslatef(-45,20,45);
     glScalef(1.5,2,1.5);
     pohon();
     glPopMatrix();
+
+    //kiri atas panjang
+for (int i=-44; i>=-230; i+=-20)
+{
+    glPushMatrix();
+    glTranslatef(i,20,-25);
+    glScalef(1.5,2,1.5);
+    pohon();
+    glPopMatrix();
+}
+
+
+
 
     glPushMatrix();
     glTranslatef(-45,20,-45);
